@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "signin_infos",
+  "info": {
+    "singularName": "signin-info",
+    "pluralName": "signin-infos",
+    "displayName": "signin-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "unique": true
+    },
+    "password": {
+      "type": "string"
+    },
+    "confirmpassword": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}
